@@ -506,10 +506,11 @@ public class VentanaPartida2 extends javax.swing.JFrame {
         //Dinero Jugadores
         int d1 = jugador1.getDinero();
         String df1 = Integer.toString(d1);
-        DJugador1.setText(df1);
+        String mm = " Mm";
+        DJugador1.setText(df1 + mm);
         int d2 = jugador2.getDinero();
         String df2 = Integer.toString(d2);
-        DJugador2.setText(df2);
+        DJugador2.setText(df2 + mm);
 
         //Turno
         this.turno = turno;
