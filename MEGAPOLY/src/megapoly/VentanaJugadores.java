@@ -140,7 +140,7 @@ public class VentanaJugadores extends javax.swing.JFrame {
         jugador1 = new Jugadores(" jugador1", 100, 0);
         jugador2 = new Jugadores(" jugador2", 100, 0);
         turno=1;
-        VentanaPartida2 vp = new VentanaPartida2(texto, texto2, fichaJugador1, fichaJugador2, jugador1, jugador2, turno);
+        VentanaPartida vp = new VentanaPartida(texto, texto2, fichaJugador1, fichaJugador2, jugador1, jugador2, turno);
         vp.setVisible(true);
         this.dispose();
         

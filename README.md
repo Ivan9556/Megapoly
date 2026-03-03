@@ -10,17 +10,26 @@ obligó a entender a fondo la lógica de negocio y la gestión de estados.
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Swing](https://img.shields.io/badge/Swing-GUI-blue?style=for-the-badge)
 
-### 🛠️ Detalles Técnicos
+### Detalles Técnicos
 * **Lenguaje:** 100% Java.
 * **Interfaz Gráfica:** Desarrollada íntegramente con la librería **Swing** (JFrame, JPanel, Graphics).
 * **Paradigma:** Programación Orientada a Objetos (POO).
 
-### 💡 Lo que aprendí
-Este repositorio es especial para mí porque con él superé desafíos como:
-1. **Lógica de juego:** Gestionar turnos y transacciones bancarias de forma síncrona.
-2. **Interfaz de usuario:** Aprender a posicionar elementos y actualizar la UI en tiempo real.
+### Imágenes
+<p align="center">
+  <img src="MEGAPOLY/build/classes/IMG/pantalla_inicio.png" alt="Pantalla de inicio" width="400">
+</p>
+<p align="center">
+    <img src="MEGAPOLY/build/classes/IMG/patalla_partida.png" alt="Pantalla de partida" width="800">
+</p>
 
-### 🚀 Próximos pasos (Mejoras pendientes)
+###  Instalación 
+1. ** **
+2. ** ** 
+3. ** **
+4. ** ** 
+
+###  Próximos pasos (Mejoras pendientes)
 Como proyecto de aprendizaje, todavía tiene mucho margen de crecimiento. Me gustaría mejorar:
 * **Animaciones:** Añadir movimiento visual a los dados.
 * **Sistema de Hoteles:** Implementar la lógica para subir de nivel las propiedades de casas a hoteles.

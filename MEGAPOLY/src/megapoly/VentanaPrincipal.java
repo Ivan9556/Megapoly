@@ -14,9 +14,9 @@ import javax.swing.JOptionPane;
  *
  * @author Ivan-PC
  */
-public class VentanaPricipal extends javax.swing.JFrame {
+public class VentanaPrincipal extends javax.swing.JFrame {
 
-    public VentanaPricipal() {
+    public VentanaPrincipal() {
         initComponents();
         this.setLocationRelativeTo(null);
         this.setResizable(false);
@@ -179,7 +179,7 @@ public class VentanaPricipal extends javax.swing.JFrame {
             } catch (ClassNotFoundException ex) {
                 JOptionPane.showMessageDialog(null, ex.toString());
             }
-            VentanaPartida2 vp = new VentanaPartida2(texto, texto2, fichaJugador1, fichaJugador2, jugador1, jugador2, turno);
+            VentanaPartida vp = new VentanaPartida(texto, texto2, fichaJugador1, fichaJugador2, jugador1, jugador2, turno);
             vp.setVisible(true);
 
         } catch (IOException e) {
@@ -228,19 +228,19 @@ public class VentanaPricipal extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(VentanaPricipal.class
+            java.util.logging.Logger.getLogger(VentanaPrincipal.class
                     .getName()).log(java.util.logging.Level.SEVERE, null, ex);
 
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(VentanaPricipal.class
+            java.util.logging.Logger.getLogger(VentanaPrincipal.class
                     .getName()).log(java.util.logging.Level.SEVERE, null, ex);
 
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(VentanaPricipal.class
+            java.util.logging.Logger.getLogger(VentanaPrincipal.class
                     .getName()).log(java.util.logging.Level.SEVERE, null, ex);
 
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(VentanaPricipal.class
+            java.util.logging.Logger.getLogger(VentanaPrincipal.class
                     .getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
@@ -248,7 +248,7 @@ public class VentanaPricipal extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new VentanaPricipal().setVisible(true);
+                new VentanaPrincipal().setVisible(true);
 
             }
         });

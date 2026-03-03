@@ -16,7 +16,7 @@ import javax.swing.JOptionPane;
  *
  * @author Ivan-PC
  */
-public class VentanaPartida2 extends javax.swing.JFrame {
+public class VentanaPartida extends javax.swing.JFrame {
 
     static Calles Salida = new Calles("Salida");
     static Calles PedroAntonio = new Calles("PedroAntonio", 48, 0);
@@ -381,11 +381,11 @@ public class VentanaPartida2 extends javax.swing.JFrame {
     private FichaTablero fichaJugador1, fichaJugador2;
     private int turno;
 
-    public VentanaPartida2() {
+    public VentanaPartida() {
 
     }
 
-    public VentanaPartida2(String texto, String texto2, FichaTablero fichaJugador1, FichaTablero fichaJugador2, Jugadores jugador1, Jugadores jugador2, int turno) {
+    public VentanaPartida(String texto, String texto2, FichaTablero fichaJugador1, FichaTablero fichaJugador2, Jugadores jugador1, Jugadores jugador2, int turno) {
         initComponents();
         this.setLocationRelativeTo(null);
         this.setResizable(false);
@@ -2907,20 +2907,20 @@ public class VentanaPartida2 extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(VentanaPartida2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(VentanaPartida.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(VentanaPartida2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(VentanaPartida.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(VentanaPartida2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(VentanaPartida.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(VentanaPartida2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(VentanaPartida.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new VentanaPartida2().setVisible(true);
+                new VentanaPartida().setVisible(true);
             }
         });
     }
