@@ -28,7 +28,6 @@ obligó a entender a fondo la lógica de negocio y la gestión de estados.
 2. ** ** 
 3. ** **
 4. ** ** 
-5. ** **
 
 ###  Próximos pasos (Mejoras pendientes)
 Como proyecto de aprendizaje, todavía tiene mucho margen de crecimiento. Me gustaría mejorar:
