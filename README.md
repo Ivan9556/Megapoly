@@ -23,12 +23,12 @@ obligó a entender a fondo la lógica de negocio y la gestión de estados.
     <img src="MEGAPOLY/build/classes/IMG/patalla_partida.png" alt="Pantalla de partida" width="800">
 </p>
 
-###  Instalación 
+###  Console 
 1. ** **
 2. ** ** 
 3. ** **
 4. ** ** 
-5. ** **
+
 
 ###  Próximos pasos (Mejoras pendientes)
 Como proyecto de aprendizaje, todavía tiene mucho margen de crecimiento. Me gustaría mejorar:
