@@ -5,7 +5,7 @@ desarrollé como programador. Fue el proyecto final de mi formación inicial y
 representa el momento en el puse en práctica los conocimientos que apredí.
 
 Desarrollar una versión de un juego de tablero tan complejo como el Monopoly fue un reto técnico que me 
-obligó a entender a fondo la lógica de negocio y la gestión de estados.
+obligó a entender a fondo la lógica de la programación orientada a objetos y el uso de librerías como Swing.
 
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Swing](https://img.shields.io/badge/Swing-GUI-blue?style=for-the-badge)
