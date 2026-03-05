@@ -23,20 +23,21 @@ obligó a entender a fondo la lógica de la programación orientada a objetos y 
     <img src="MEGAPOLY/build/classes/IMG/patalla_partida.png" alt="Pantalla de partida" width="800">
 </p>
 
-###  Ejecución desde consola (Linux/Bash)
+###  Ejecución desde consola
 Si prefieres no usar un IDE, puedes copilar y ejecutar el juego directamente desde la
 terminal.
 
-1. **Requisitos de Sofware**
-Para este proyecto necesitas el kit de desarrollo de Java (JDK), que incluye el compilador (`javac`) y el entorno de ejecución (Runtime/`java`).
+**Requisitos de Sofware**
+Para este proyecto necesitas el kit de desarrollo de Java (JDK), que incluye el compilador (`javac`) y el entorno de 
+ejecución (Runtime/`java`). Puedes descargarlo directamente [Java SE Downloads](https://www.oracle.com/java/technologies/downloads/)
 
-* **Descarga oficial:** [Java SE Downloads](https://www.oracle.com/java/technologies/downloads/)
-* * **Debian/Ubuntu:** `sudo apt install default-jdk`
-* **Arch/Manjaro:** `sudo pacman -S jdk-openjdk`
-  
-3. ** ** 
-4. ** **
-5. ** ** 
+**Instalación en Linux**
+
+    ```bash
+       Debian/Ubuntu: sudo apt install default-jdk
+       Arch/Manjaro: sudo pacman -S jdk-openjdk
+
+
 
 
 ###  Próximos pasos (Mejoras pendientes)
