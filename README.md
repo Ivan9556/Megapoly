@@ -5,7 +5,7 @@ desarrollé como programador. Fue el proyecto final de mi formación inicial y
 representa el momento en el puse en práctica los conocimientos que apredí.
 
 Desarrollar una versión de un juego de tablero tan complejo como el Monopoly fue un reto técnico que me 
-obligó a entender a fondo la lógica de la programación orientada a objetos y el uso de librerías como Swing.
+obligó a entender a fondo la lógica de la programación orientada a objetos y sus principales fundamentos como la herencia, poliformismo, abstración y poliformismo. 
 
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Swing](https://img.shields.io/badge/Swing-GUI-blue?style=for-the-badge)
@@ -23,11 +23,20 @@ obligó a entender a fondo la lógica de la programación orientada a objetos y 
     <img src="MEGAPOLY/build/classes/IMG/patalla_partida.png" alt="Pantalla de partida" width="800">
 </p>
 
-###  Console 
-1. ** **
-2. ** ** 
-3. ** **
-4. ** ** 
+###  Ejecución desde consola (Linux/Bash)
+Si prefieres no usar un IDE, puedes copilar y ejecutar el juego directamente desde la
+terminal.
+
+1. **Requisitos de Sofware**
+Para este proyecto necesitas el kit de desarrollo de Java (JDK), que incluye el compilador (`javac`) y el entorno de ejecución (Runtime/`java`).
+
+* **Descarga oficial:** [Java SE Downloads](https://www.oracle.com/java/technologies/downloads/)
+* * **Debian/Ubuntu:** `sudo apt install default-jdk`
+* **Arch/Manjaro:** `sudo pacman -S jdk-openjdk`
+  
+3. ** ** 
+4. ** **
+5. ** ** 
 
 
 ###  Próximos pasos (Mejoras pendientes)
