@@ -31,15 +31,14 @@ terminal.
 Para este proyecto necesitas el kit de desarrollo de Java (JDK), que incluye el compilador (`javac`) y el entorno de 
 ejecución (Runtime/`java`). Puedes descargarlo directamente [Java SE Downloads](https://www.oracle.com/java/technologies/downloads/)
 
-**Instalación en Linux**
+### Instalación en Linux
 
-    ```bash
- Debian/Ubuntu: sudo apt install default-jdk
- Arch/Manjaro: sudo pacman -S jdk-openjdk
+Para instalar el JDK en sistemas basados en Linux, ejecuta el comando correspondiente a tu distribución:
 
-###  Próximos pasos (Mejoras pendientes)
-Como proyecto de aprendizaje, todavía tiene mucho margen de crecimiento. Me gustaría mejorar:
-* **Animaciones:** Añadir movimiento visual a los dados.
-* **Sistema de Hoteles:** Implementar la lógica para subir de nivel las propiedades de casas a hoteles.
-* **Visualización de compras:** Crear pantallas de confirmación más detalladas al adquirir nuevas calles.
+**Debian / Ubuntu**
+```bash
+sudo apt update && sudo apt install default-jdk
+
+
+
 
