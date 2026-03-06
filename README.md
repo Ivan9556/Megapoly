@@ -35,12 +35,11 @@ ejecución (Runtime/`java`). Puedes descargarlo directamente [Java SE Downloads]
 
 Para instalar el JDK en sistemas basados en Linux, ejecuta el comando correspondiente a tu distribución:
 
-**Debian / Ubuntu**
-```bash
-Debian/Ubuntu: sudo apt install default-jdk
+```bash Debian / Ubuntu
+sudo apt install default-jdk
 ```
-```bash
-Arch / Manjaro: sudo pacman -S jdk-openjdk
+```bash Arch / Manjaro
+sudo pacman -S jdk-openjdk
 ```
 
 ###  Próximos pasos (Mejoras pendientes)
