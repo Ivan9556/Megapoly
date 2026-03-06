@@ -34,11 +34,8 @@ ejecución (Runtime/`java`). Puedes descargarlo directamente [Java SE Downloads]
 **Instalación en Linux**
 
     ```bash
-       Debian/Ubuntu: sudo apt install default-jdk
-       Arch/Manjaro: sudo pacman -S jdk-openjdk
-
-
-
+ Debian/Ubuntu: sudo apt install default-jdk
+ Arch/Manjaro: sudo pacman -S jdk-openjdk
 
 ###  Próximos pasos (Mejoras pendientes)
 Como proyecto de aprendizaje, todavía tiene mucho margen de crecimiento. Me gustaría mejorar:
