@@ -37,7 +37,17 @@ Para instalar el JDK en sistemas basados en Linux, ejecuta el comando correspond
 
 **Debian / Ubuntu**
 ```bash
-sudo apt update && sudo apt install default-jdk
+Debian/Ubuntu: sudo apt install default-jdk
+```
+```bash
+Arch / Manjaro: sudo pacman -S jdk-openjdk
+```
+
+###  Próximos pasos (Mejoras pendientes)
+Como proyecto de aprendizaje, todavía tiene mucho margen de crecimiento. Me gustaría mejorar:
+* **Animaciones:** Añadir movimiento visual a los dados.
+* **Sistema de Hoteles:** Implementar la lógica para subir de nivel las propiedades de casas a hoteles.
+* **Visualización de compras:** Crear pantallas de confirmación más detalladas al adquirir nuevas calles.
 
 
 
