@@ -24,10 +24,11 @@ obligó a entender a fondo la lógica de la programación orientada a objetos y 
 </p>
 
 ###  Ejecución desde consola
-Si prefieres no usar un IDE, puedes copilar y ejecutar el juego directamente desde la
+Si prefieres no usar un IDE para copilar y ejecutar el juego, puedes hacerlo directamente desde la
 terminal.
 
-**Requisitos de Sofware**
+### Requisitos de Sofware
+
 Para este proyecto necesitas el kit de desarrollo de Java (JDK), que incluye el compilador (`javac`) y el entorno de 
 ejecución (Runtime/`java`). Puedes descargarlo directamente [Java SE Downloads](https://www.oracle.com/java/technologies/downloads/)
 
@@ -43,11 +44,17 @@ sudo apt install default-jdk
 ```bash
 sudo pacman -S jdk-openjdk
 ```
+### Ejecución del juego
 
-###  Próximos pasos (Mejoras pendientes)
-Como proyecto de aprendizaje, todavía tiene mucho margen de crecimiento. Me gustaría mejorar:
+Debes ir al directorio y ejecutar la clase principal con el comando "java" y listo.
+```
+src\megapoly>java VentanaPrincipal.java
+```
+
+###  Mejoras pendientes
+Como proyecto de aprendizaje, todavía tiene mucho margen de crecimiento. Objetivos para próximas actualizaciones:
 * **Animaciones:** Añadir movimiento visual a los dados.
-* **Sistema de Hoteles:** Implementar la lógica para subir de nivel las propiedades de casas a hoteles.
+* **Sistema de viviendas:** Implementar la lógica de compra de propiedades como casas y hoteles.
 * **Visualización de compras:** Crear pantallas de confirmación más detalladas al adquirir nuevas calles.
 
 
